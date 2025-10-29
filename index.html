@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dreidels Game</title>
+
+		<link rel="shortcut icon" href="assets/MRLogo.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="gameboard">
+            <img id="game-dreidel" class="dreidel-img" src="assets/dreidel/dreidel-frame0.png" alt="Dreidel">
+            <img src="assets/buttons/rollButton.png" class="roll-button">
+            <img src="assets/descrip/descripEmpty.png" class="description">
+        </div>
+
+        <div class="titleScreen">
+            <img class="title-message" src="assets/titleMessage.png" alt="" srcset="">
+            <img id="title-dreidel" class="dreidel-img" src="assets/dreidel/dreidel-frame0.png" >
+            <img class="start-button" src="assets/buttons/startButton.png">
+        </div>
+
+        <div class="winScreen">
+            <div class="screenBlock">
+                <div class="winImg"></div>
+				<img class="reset-button" src="assets/buttons/playagain.png">
+            </div>
+        </div>
+
+        <div class="loseScreen">
+            <div class="screenBlock">
+                <div class="loseImg"></div>
+				<img class="reset-button" src="assets/buttons/playagain.png">
+            </div>
+        </div>
+
+        <div class="transitionScreen"></div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
